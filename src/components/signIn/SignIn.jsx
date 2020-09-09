@@ -32,7 +32,7 @@ class SignIn extends Component {
   handleChange = (e) => {
     const { value, name } = e.target;
 
-    this.setState({ [name]: value });
+    this.setState({ [name]: value }); 
   };
 
   render() {
